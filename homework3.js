@@ -133,7 +133,9 @@
     }else if (string === 'triangle'){
   
       return triangleArea(num1,num2);    
-    };
+    }else {
+    	return -1;
+    }
   };
   console.log(runStuff(4,2,"triangle"));
         
